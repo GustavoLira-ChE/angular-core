@@ -1,0 +1,25 @@
+.message-error{
+  background-color: red;
+  color: white;
+  opacity: 0;
+  transition: all linear 0.5s;
+}
+.message-error.invalid{
+  opacity: 1;
+}
+
+.line-error{
+  height: 0;
+  border-bottom: 1px solid;
+}
+.line-error.valid{
+  border-color: green;
+}
+.line-error.invalid{
+  border-color: red;
+}
+
+.box-color{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+}
